@@ -19,6 +19,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 * `omniscient`: 전지적 작가 시점을 기준으로 상호참조관계 및 발화자가 주석된 데이터셋.
 
 `reader`와 `omniscient` 폴더는 각각 `.jsonl`과 `.conll` 파일이 들어 있습니다. 파일의 내용은 동일하나, 변환의 번거로움을 줄이고자 두 가지의 format을 모두 제공합니다.
+
 * `.jsonl`: coref cluster와 speaker-id 간의 관계를 비교적 쉽게 파악 가능
 * `.conll`: coref에서는 표준화된 format으로, [e2e-coref](https://github.com/kentonl/e2e-coref/), [s2e-coref](https://github.com/yuvalkirstain/s2e-coref), [LingMess](https://github.com/shon-otmazgin/lingmess-coref) 등 기존의 상호참조해결 모델에 바로 활용 가능
 
