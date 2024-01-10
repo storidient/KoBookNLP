@@ -18,8 +18,10 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 * `reader`: 독자 시점을 기준으로 상호참조관계 및 발화자가 주석된 데이터셋. 장면 단위로 정보가 제한되어, 뒤늦게 같은 인물이라는 것이 밝혀지는 경우에는 따로 주석되어 있음
 * `omniscient`: 전지적 작가 시점을 기준으로 상호참조관계 및 발화자가 주석된 데이터셋.
 
-| |reader|omniscient|
+| |Number of Entities|Number of Mentions|
 |---|---|---|
+reader|0|0|
+omniscient|0|0|
 
 `reader`와 `omniscient` 폴더는 각각 `.jsonl`과 `.conll` 파일이 들어 있습니다.
 파일의 내용은 동일하나, 변환의 번거로움을 줄이고자 두 가지의 format을 모두 제공합니다.
