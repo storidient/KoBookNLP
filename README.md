@@ -32,6 +32,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 reader|0|0|
 omniscient|0|0|
 
+
 `reader`와 `omniscient` 폴더는 각각 `.jsonl`과 `.conll` 파일이 들어 있습니다.
 파일의 내용은 동일하나, 변환의 번거로움을 줄이고자 두 가지의 format을 모두 제공합니다.
 
