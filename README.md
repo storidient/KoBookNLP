@@ -37,7 +37,7 @@ omniscient|0|0|
 파일의 내용은 동일하나, 변환의 번거로움을 줄이고자 두 가지의 format을 모두 제공합니다.
 
 * `.jsonl`: coref cluster와 speaker-id 간의 관계를 비교적 쉽게 파악 가능
-* `.conll`: coref에서는 표준화된 format으로, [e2e-coref](https://github.com/kentonl/e2e-coref/), [s2e-coref](https://github.com/yuvalkirstain/s2e-coref), [LingMess](https://github.com/shon-otmazgin/lingmess-coref) 등 기존의 상호참조해결 모델에 바로 활용 가능
+* `.conll`: 표준화된 format으로, [e2e-coref](https://github.com/kentonl/e2e-coref/), [s2e-coref](https://github.com/yuvalkirstain/s2e-coref), [LingMess](https://github.com/shon-otmazgin/lingmess-coref) 등 기존의 상호참조해결 모델에 바로 활용 가능
 
 `.jsonl`을 활용한 data-exploration 파일과 `.conll`을 활용한 기존 모델 학습 및 테스트는 [Tutorial](##Tutorial)에서 확인할 수 있습니다.
 
