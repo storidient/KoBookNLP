@@ -5,7 +5,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 * 대사-발화자 찾기(Direct Quotation Assignment, Speaker Identification)
 * [KoCoNovel 데이터셋](##KoCoNovel-Dataset)
 
-**Note** : 현재는 데이터셋 KoCoNovel만 공개 중
+**Note** : temporary repository for '2023 학부생연구지원프로그램 발표' in SNU
 
 ![Example for KoBookNLP](header.png "Example of KoBookNLP")
 
