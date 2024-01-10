@@ -7,7 +7,7 @@ KoBookNLP는 한국어 소설을 위한 자연어처리 라이브러리로 다�
   * 통계(Statistics)
   * 주석 가이드라인(Annotation Guidelines)
   
-* 상호참조해결(Co-reference Resolution)을 위한 프롬프트 및 코드
+* 등장인물 상호참조해결(Co-reference Resolution)을 위한 프롬프트 및 코드
 * 대사의 발화자 찾기(Direct Quotation Assignment, Speaker Identification)를 위한 프롬프트 및 코드
 
 ## Introduction
