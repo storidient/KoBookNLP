@@ -15,7 +15,9 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 
 `data` 아래 각 소설 폴더에는 `.jsonl`과 `.conll` 파일이 들어가 있음
 * `.jsonl`: coref cluster와 speaker-id 간의 관계를 비교적 쉽게 파악 가능
-* `.conll`: coref에서는 표준화된 format으로, [e2e-coref](https://github.com/kentonl/e2e-coref/), [s2e-coref](https://github.com/yuvalkirstain/s2e-coref), [LingMess](https://github.com/shon-otmazgin/lingmess-coref) 등의 모델에 바로 학습-테스트 가능. 하단의 [튜토리얼](##Tutorials) 참고.
+* `.conll`: coref에서는 표준화된 format으로, [e2e-coref](https://github.com/kentonl/e2e-coref/), [s2e-coref](https://github.com/yuvalkirstain/s2e-coref), [LingMess](https://github.com/shon-otmazgin/lingmess-coref) 등 기존의 상호참조해결 모델에 바로 활용 가능
+
+**Note** : 하단의 [튜토리얼](##Tutorials) 참고.
 
 
 * `reader`: 독자 시점을 기준으로 상호참조관계가 주석된 데이터셋. (주석자가 읽으면서 주석작업을 진행. 장면 단위로 정보가 제한되어, 뒤늦게 같은 인물이라는 것이 밝혀지는 경우에는 따로 주석되어 있음)
