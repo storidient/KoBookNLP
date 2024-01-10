@@ -1,4 +1,4 @@
-# KoBookNLP : A Natural Language Processing Library for Korean Literary Text
+# KoBookNLP : Natural Language Processing Library for Korean Literary Text
 KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러리로 다음과 같이 구성되어 있습니다.
 * 등장인물 개체인식(Name Entity Recognition, NER)
 * 상호참조해결(Coreference Resolution, Coref)
@@ -18,6 +18,11 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 * `_text.csv` : 20문장 내외의 장면으로 분할된 소설 텍스트
 * `reader`: 장면 단위로 정보가 제한된 상태로, 독자 시점에서 상호참조관계 및 발화자가 주석된 데이터셋
 * `omniscient`: 전지적 작가 시점을 기준으로 상호참조관계 및 발화자가 주석된 데이터셋
+
+|reader|omniscient|
+|---|---|
+|0|0|
+|0|0|
 
 `reader`와 `omniscient` 폴더에는 각각 `overlap_plural`, `default`가 존재합니다.
 * `default` : plural entity(e.g. '우리')를 각 개인의 entity(e.g. '너', '나')와는 별개로 취급한 데이터셋
