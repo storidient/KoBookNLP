@@ -16,10 +16,14 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 `data` 아래 각 소설 폴더는 다음과 같이 구성되어 있습니다.
 
 * `_text.csv` : 20문장 내외의 장면으로 분할된 소설 텍스트
-* `reader`: 장면 단위로 정보가 제한된 상태로, 독자 시점에서 상호참조관계 및 발화자가 주석된 데이터셋.
-* `omniscient`: 전지적 작가 시점을 기준으로 상호참조관계 및 발화자가 주석된 데이터셋.
+* `reader`: 장면 단위로 정보가 제한된 상태로, 독자 시점에서 상호참조관계 및 발화자가 주석된 데이터셋
+* `omniscient`: 전지적 작가 시점을 기준으로 상호참조관계 및 발화자가 주석된 데이터셋
 
-| |Number of Entities|Number of Mentions|
+`reader`와 `omniscient` 폴더에는 각각 overlap_plural, default가 존재합니다.
+* default : plural entity를 각 개인의 entity와는 별개로 취급한 데이터셋
+* overlap_plural: 소설 속 등장인물의 합으로 표현가능한 plural entity(e.g. '세 처녀')에 대해, 각 개인의 entity(e.g. '첫째 처녀', '둘째 처녀', '셋째 처녀')를 겹쳐서 표현한 데이터셋
+
+| |reader|omniscient|
 |---|---|---|
 reader|0|0|
 omniscient|0|0|
