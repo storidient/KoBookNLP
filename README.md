@@ -3,7 +3,7 @@ KoBookNLP는 한국어 소설을 위한 자연어처리 라이브러리로 다�
 * 등장인물 개체인식(Name Entity Recognition, NER)
 * 상호참조해결(Coreference Resolution, Coref)
 * 대사-발화자 찾기(Direct Quotation Assignment, Speaker Identification)
-* [세 가지 태스크에 대해 주석한 데이터셋 KoCoNovel](##KoCoNovel-Dataset)
+* [KoCoNovel 데이터셋](##KoCoNovel-Dataset)
 
 ※ 현재는 데이터셋 KoCoNovel만 공개 중
 
