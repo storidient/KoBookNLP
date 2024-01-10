@@ -10,7 +10,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 ![Example for KoBookNLP](header.png "Example of KoBookNLP")
 
 ## KoCoNovel-Dataset
-위키문헌에 있는 50편의 한국 근현대 소설 중단편 작품에 대해 등장인물 개체 인식, 상호참조해결, 대사-발화자 찾기를 주석한 데이터셋입니다.
+[위키문헌](https://ko.wikisource.org/wiki/%EC%9C%84%ED%82%A4%EB%AC%B8%ED%97%8C:%EB%8C%80%EB%AC%B8)에 있는 50편의 한국 근현대 소설 중단편 작품에 대해 등장인물 개체 인식, 상호참조해결, 대사-발화자 찾기를 주석한 데이터셋입니다.
 소설 목록은 `ListOfNovels.csv`에서 확인할 수 있습니다.
 
 `data` 아래 각 소설 폴더는 다음과 같이 구성되어 있습니다.
@@ -21,8 +21,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 
 |reader|omniscient|
 |---|---|
-|0|0|
-|0|0|
+||0|
 
 `reader`와 `omniscient` 폴더에는 각각 `overlap_plural`, `default`가 존재합니다.
 * `default` : plural entity(e.g. '우리')를 각 개인의 entity(e.g. '너', '나')와는 별개로 취급한 데이터셋
