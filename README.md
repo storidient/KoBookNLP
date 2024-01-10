@@ -1,5 +1,5 @@
-# KoBookNLP
-KoBookNLP는 한국어 소설을 위한 자연어처리 라이브러리로 다음과 같이 구성되어 있습니다.
+# KoBookNLP : A Natural Language Processing Library for Korean Literary Text
+KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러리로 다음과 같이 구성되어 있습니다.
 * 등장인물 개체인식(Name Entity Recognition, NER)
 * 상호참조해결(Coreference Resolution, Coref)
 * 대사-발화자 찾기(Direct Quotation Assignment, Speaker Identification)
