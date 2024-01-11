@@ -10,6 +10,11 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 ![Example for KoBookNLP](header.png "Example of KoBookNLP")
 
 ## KoCoNovel-Dataset
+- [데이터셋 소개](###Introduction)
+- [주석 가이드라인](###Annotation-Guidelines)
+- [활용 튜토리얼](###Tutorials)
+
+### Introduction
 [위키문헌](https://ko.wikisource.org/wiki/%EC%9C%84%ED%82%A4%EB%AC%B8%ED%97%8C:%EB%8C%80%EB%AC%B8)에 있는 50편의 한국 근현대 소설 중단편 작품에 대해 등장인물 개체 인식, 상호참조해결, 대사-발화자 찾기를 주석한 데이터셋입니다.
 소설 목록은 `ListOfNovels.csv`에서 확인할 수 있습니다.
 
@@ -37,10 +42,10 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 text|[**첫째 처녀**]<sub>x</sub>는 호동그래진 눈에 무서워하는 빛을 띤다. … [**둘째 처녀**]<sub>y</sub>도 잠 오는 눈을 비비며 수상해한다.… 장난 잘 치고 짓궂은 짓 잘하기로 유명한 [**셋째 처녀**]<sub>z</sub>는 동무 말을 못 믿겠다는 듯이 이슥히 귀를 기울이다가,\n\"딴은 수상한걸. 나는 언젠가 한 번 들어본 법도 하구먼. 무얼 잠 아니 오는 애들이 이야기하는 게지.\"\n이때 그 괴상한 소리는 댁대굴 웃었다.\n[**세 처녀**]<sub>w</sub>는 귀를 소스라쳤다.|[**첫째 처녀**]<sub>x</sub>는 호동그래진 눈에 무서워하는 빛을 띤다. … [**둘째 처녀**]<sub>y</sub>도 잠 오는 눈을 비비며 수상해한다.… 장난 잘 치고 짓궂은 짓 잘하기로 유명한 [**셋째 처녀**]<sub>z</sub>는 동무 말을 못 믿겠다는 듯이 이슥히 귀를 기울이다가,\n\"딴은 수상한걸. 나는 언젠가 한 번 들어본 법도 하구먼. 무얼 잠 아니 오는 애들이 이야기하는 게지.\"\n이때 그 괴상한 소리는 댁대굴 웃었다.\n[**세 처녀**]<sub>x,y,z</sub>는 귀를 소스라쳤다.
 clusters|[['첫째 처녀'], ['둘째 처녀'], ['셋째 처녀'], ['세 처녀']]|[['첫째 처녀', '세 처녀'], ['둘째 처녀', '세 처녀'], ['셋째 처녀', '세 처녀']]|
 
-## Annotation Guidelines
+### Annotation-Guidelines
 데이터셋의 한국어 주석 가이드라인은 [여기](https://swift-dresser-4a0.notion.site/KoCoNovel-Guidelines-dd07b51e05634f30a42a86fd704351f3?pvs=4)에서 확인할 수 있습니다.
 
-## Format
+### Format
 `.jsonl`과 `.conll` 파일이 들어 있습니다. 파일의 내용은 동일하나, 변환의 번거로움을 줄이고자 두 가지의 format을 모두 제공합니다.
 
 * `.jsonl`: coref cluster와 speaker-id 간의 관계를 비교적 쉽게 파악 가능
@@ -48,8 +53,7 @@ clusters|[['첫째 처녀'], ['둘째 처녀'], ['셋째 처녀'], ['세 처녀'
 
 `.jsonl`을 활용한 data-exploration과 `.conll`을 활용한 기존 모델 학습 및 테스트는 [Tutorial](##Tutorial)에서 확인할 수 있습니다.
 
-
-## Tutorial
+### Tutorials
 
 ## Contact
 데이터셋과 코드 사용에 궁금한 점이 있거나, 제안이 있을 경우에는 아래로 연락주시길 바랍니다.
