@@ -37,6 +37,9 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 text||
 clusters|0|0|
 
+## Annotation Guidelines
+상호참조해결에 대한 한국어 주석 가이드라인은 [여기](https://swift-dresser-4a0.notion.site/KoCoNovel-Guidelines-dd07b51e05634f30a42a86fd704351f3?pvs=4)에서 확인할 수 있습니다.
+
 ## Format
 `.jsonl`과 `.conll` 파일이 들어 있습니다. 파일의 내용은 동일하나, 변환의 번거로움을 줄이고자 두 가지의 format을 모두 제공합니다.
 
