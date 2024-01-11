@@ -21,7 +21,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 
 |reader|omniscient|
 |---|---|
-||0|
+|||
 
 `reader`와 `omniscient` 폴더에는 각각 `overlap_plural`, `default`가 존재합니다.
 * `default` : plural entity(e.g. '우리')를 각 개인의 entity(e.g. '너', '나')와는 별개로 취급한 데이터셋
@@ -39,9 +39,7 @@ omniscient|0|0|
 * `.jsonl`: coref cluster와 speaker-id 간의 관계를 비교적 쉽게 파악 가능
 * `.conll`: 표준화된 format으로, [e2e-coref](https://github.com/kentonl/e2e-coref/), [s2e-coref](https://github.com/yuvalkirstain/s2e-coref), [LingMess](https://github.com/shon-otmazgin/lingmess-coref) 등 기존의 상호참조해결 모델에 바로 활용 가능
 
-`.jsonl`을 활용한 data-exploration 파일과 `.conll`을 활용한 기존 모델 학습 및 테스트는 [Tutorial](##Tutorial)에서 확인할 수 있습니다.
+`.jsonl`을 활용한 data-exploration과 `.conll`을 활용한 기존 모델 학습 및 테스트는 [Tutorial](##Tutorial)에서 확인할 수 있습니다.
 
-
-### Statistics
 
 ## Tutorial
