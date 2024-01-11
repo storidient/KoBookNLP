@@ -10,10 +10,6 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 ![Example for KoBookNLP](header.png "Example of KoBookNLP")
 
 ## KoCoNovel-Dataset
-- [데이터셋 소개](###Introduction)
-- [주석 가이드라인](###Annotation-Guidelines)
-- [활용 튜토리얼](###Tutorials)
-
 ### Introduction
 [위키문헌](https://ko.wikisource.org/wiki/%EC%9C%84%ED%82%A4%EB%AC%B8%ED%97%8C:%EB%8C%80%EB%AC%B8)에 있는 50편의 한국 근현대 소설 중단편 작품에 대해 등장인물 개체 인식, 상호참조해결, 대사-발화자 찾기를 주석한 데이터셋입니다.
 소설 목록은 `ListOfNovels.csv`에서 확인할 수 있습니다.
@@ -53,7 +49,7 @@ clusters|[['첫째 처녀'], ['둘째 처녀'], ['셋째 처녀'], ['세 처녀'
 
 `.jsonl`을 활용한 data-exploration과 `.conll`을 활용한 기존 모델 학습 및 테스트는 [Tutorial](##Tutorial)에서 확인할 수 있습니다.
 
-### Tutorials
+## Tutorials
 
 ## Contact
 데이터셋과 코드 사용에 궁금한 점이 있거나, 제안이 있을 경우에는 아래로 연락주시길 바랍니다.
