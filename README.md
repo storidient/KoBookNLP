@@ -32,7 +32,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 * `default` : plural entity(e.g. '우리')를 각 개인의 entity(e.g. '너', '나')와는 별개로 취급한 데이터셋
 * `overlap_plural`: 등장인물의 합으로 표현 가능한 plural entity에 대해, 각 개인의 entity를 겹쳐서 표현한 데이터셋
 
-| |default|overlap_plura|
+| |default|overlap_plural|
 |---|---|---|
 text||
 clusters|0|0|
