@@ -21,7 +21,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 
 |reader|omniscient|
 |---|---|
-|||
+|<img src="image.png" alt="drawing" width="200"/>||
 
 `reader`와 `omniscient` 폴더에는 각각 `overlap_plural`, `default`가 존재합니다.
 * `default` : plural entity(e.g. '우리')를 각 개인의 entity(e.g. '너', '나')와는 별개로 취급한 데이터셋
