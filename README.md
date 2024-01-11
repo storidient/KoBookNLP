@@ -50,6 +50,8 @@ clusters|[['첫째 처녀'], ['둘째 처녀'], ['셋째 처녀'], ['세 처녀'
 `.jsonl`을 활용한 data-exploration과 `.conll`을 활용한 기존 모델 학습 및 테스트는 [Tutorial](##Tutorial)에서 확인할 수 있습니다.
 
 ## Tutorials
+- KoCoNovel Dataset Exploration
+- KoCoNovel e2e-coref model training
 
 ## Contact
 데이터셋과 코드 사용에 궁금한 점이 있거나, 제안이 있을 경우에는 아래로 연락주시길 바랍니다.
