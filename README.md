@@ -27,6 +27,7 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 
 위와 같이 작품에 정보의 비대칭성이 존재하는 경우에는 태깅이 다르게 되어 있습니다
 
+
 `reader`와 `omniscient` 폴더에는 각각 `overlap_plural`, `default`가 존재합니다.
 * `default` : plural entity(e.g. '우리')를 각 개인의 entity(e.g. '너', '나')와는 별개로 취급한 데이터셋
 * `overlap_plural`: 등장인물의 합으로 표현 가능한 plural entity에 대해, 각 개인의 entity를 겹쳐서 표현한 데이터셋
