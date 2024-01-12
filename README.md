@@ -12,6 +12,8 @@ KoBookNLP는 한국어 소설 텍스트을 위한 자연어처리 라이브러�
 ## KoCoNovel-Dataset
 ### Introduction
 [위키문헌](https://ko.wikisource.org/wiki/%EC%9C%84%ED%82%A4%EB%AC%B8%ED%97%8C:%EB%8C%80%EB%AC%B8)에 있는 50편의 한국 근현대 소설 중단편 작품에 대해 등장인물 개체 인식, 상호참조해결, 대사-발화자 찾기를 주석한 데이터셋입니다.
+
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">KoCoNovel Dataset은</span> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>를 따르고 있습니다.
 
 소설 목록은 `ListOfNovels.csv`에서 확인할 수 있습니다.
